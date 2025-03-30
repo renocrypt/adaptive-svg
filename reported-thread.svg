@@ -8,11 +8,11 @@
     }
     /* Dark mode */
     @media (prefers-color-scheme: dark) {
-      .bg { background-color: #222222; color: #dddddd; }
+      .bg { background-color: #222222; color: #9B9B9B; }
     }
     /* Light mode */
     @media (prefers-color-scheme: light) {
-      .bg { background-color: white; color: black; }
+      .bg { background-color: white; color: #9B9B9B; }
     }
     /* Adjust font size based on SVG viewport width */
     @media (max-width: 350px) {
