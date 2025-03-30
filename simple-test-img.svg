@@ -5,10 +5,11 @@
     .text { fill: black; font-size: 32px; font-family: sans-serif; dominant-baseline: middle; text-anchor: middle; }
 
     @media (prefers-color-scheme: dark) {
-      .bg { fill: black; }
-      .text { fill: white; }
+      .bg { fill: #222222; }
+      .text { fill: #dddddd; }
     }
   </style>
   <rect class="bg" width="600" height="120" />
   <text class="text" x="300" y="60">Hello, SVG</text>
 </svg>
+
