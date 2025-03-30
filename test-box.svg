@@ -1,33 +1,17 @@
-<svg viewBox="0 0 600 50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMaxYMid">
-  <style>
-    /* Default styles */
-    .bg {
-      background-color: white;
-      color: black;
-      font-size: 16px; /* Base size */
-    }
-    /* Dark mode */
-    @media (prefers-color-scheme: dark) {
-      .bg { background-color: #222222; color: #dddddd; }
-    }
-    /* Light mode */
-    @media (prefers-color-scheme: light) {
-      .bg { background-color: white; color: black; }
-    }
-    /* Adjust font size based on SVG viewport width */
-    @media (max-width: 400px) {
-      .bg { font-size: 12px; }
-    }
-    @media (min-width: 401px) and (max-width: 800px) {
-      .bg { font-size: 14px; }
-    }
-    @media (min-width: 801px) {
-      .bg { font-size: 16px; }
-    }
-  </style>
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" class="bg" style="width:100%; height:100%; display:flex; align-items:center; justify-content:flex-end; padding-right:20px; font-family:sans-serif;">
-      ⛔️ 您将此帖子举报需要版主审核
-    </div>
-  </foreignObject>
-</svg>
+<div style="width: 100%;">
+  <svg viewBox="0 0 600 50" preserveAspectRatio="xMaxYMid" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .bg { background-color: #222222; color: #dddddd; }
+      }
+      @media (prefers-color-scheme: light) {
+        .bg { background-color: white; color: black; }
+      }
+    </style>
+    <foreignObject width="100%" height="100%">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="bg" style="width:100%; height:100%; display:flex; align-items:center; justify-content:flex-end; padding-right:20px; font-size:16px; font-family:sans-serif;">
+        ⛔️ 您将此帖子举报需要版主审核
+      </div>
+    </foreignObject>
+  </svg>
+</div>
