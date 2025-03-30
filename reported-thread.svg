@@ -16,10 +16,10 @@
     }
     /* Adjust font size based on SVG viewport width */
     @media (max-width: 350px) {
-      .bg { font-size: 18px; }
+      .bg { font-size: 36px; }
     }
     @media (min-width: 351px) and (max-width: 700px) {
-      .bg { font-size: 16px; }
+      .bg { font-size: 24px; }
     }
     @media (min-width: 701px) {
       .bg { font-size: 14px; }
