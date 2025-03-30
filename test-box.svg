@@ -1,4 +1,4 @@
-<svg viewBox="0 0 600 50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMaxYMid">
+<svg viewBox="0 0 700 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMaxYMid">
   <style>
     /* Default styles */
     .bg {
@@ -8,26 +8,32 @@
     }
     /* Dark mode */
     @media (prefers-color-scheme: dark) {
-      .bg { background-color: #222222; color: #dddddd; }
+      .bg { background-color: #222222; color: #9B9B9B; }
     }
     /* Light mode */
     @media (prefers-color-scheme: light) {
-      .bg { background-color: white; color: black; }
+      .bg { background-color: white; color: #9B9B9B; }
     }
     /* Adjust font size based on SVG viewport width */
-    @media (max-width: 400px) {
-      .bg { font-size: 16px; }
+    @media (max-width: 350px) {
+      .bg { font-size: 36px; }
     }
-    @media (min-width: 401px) and (max-width: 800px) {
+    @media (min-width: 351px) and (max-width: 450px) {
+      .bg { font-size: 30px; }
+    }
+    @media (min-width: 451px) and (max-width: 600px) {
+      .bg { font-size: 22px; }
+    }
+    @media (min-width: 651px) and (max-width: 700px) {
+      .bg { font-size: 18px; }
+    }
+    @media (min-width: 701px) {
       .bg { font-size: 14px; }
-    }
-    @media (min-width: 801px) {
-      .bg { font-size: 12px; }
     }
   </style>
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" class="bg" style="width:100%; height:100%; display:flex; align-items:center; justify-content:flex-end; padding-right:20px; font-family:sans-serif;">
-      ⛔️ 您将此帖子举报需要版主审核
+    <div xmlns="http://www.w3.org/1999/xhtml" class="bg" style="width:100%; height:100%; display:flex; align-items:flex-start; justify-content:flex-end; padding-right:12px; font-family:sans-serif;">
+      🤗 您将此帖子举抱需要版主审核
     </div>
   </foreignObject>
 </svg>
