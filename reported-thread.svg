@@ -1,20 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 600 100" preserveAspectRatio="xMaxYMid" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 600 40" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMaxYMid">
   <style>
-    .bg { fill: white; }
-    .text {
-      fill: black;
-      font-size: 16px;
-      font-family: sans-serif;
-      dominant-baseline: middle;
-      text-anchor: end;
+    /* Default styles */
+    .bg {
+      background-color: white;
+      color: black;
+      font-size: 16px; /* Base size */
     }
-
+    /* Dark mode */
     @media (prefers-color-scheme: dark) {
-      .bg { fill: #222222; }
-      .text { fill: #dddddd; }
+      .bg { background-color: #222222; color: #dddddd; }
+    }
+    /* Light mode */
+    @media (prefers-color-scheme: light) {
+      .bg { background-color: white; color: black; }
+    }
+    /* Adjust font size based on SVG viewport width */
+    @media (max-width: 350px) {
+      .bg { font-size: 18px; }
+    }
+    @media (min-width: 351px) and (max-width: 700px) {
+      .bg { font-size: 16px; }
+    }
+    @media (min-width: 701px) {
+      .bg { font-size: 14px; }
     }
   </style>
-  <rect class="bg" width="600" height="100" />
-  <text class="text" x="580" y="50">您将此帖子举报需要版主审核</text>
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="bg" style="width:100%; height:100%; display:flex; align-items:center; justify-content:flex-end; padding-right:12px; font-family:sans-serif;">
+      ⚠️ 您将此帖子举报需要版主审核
+    </div>
+  </foreignObject>
 </svg>
