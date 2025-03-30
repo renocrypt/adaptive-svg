@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 600 100" preserveAspectRatio="xMaxYMid" xmlns="http://www.w3.org/2000/svg">
   <style>
     .bg { fill: white; }
     .text {
       fill: black;
-      font-size: 28px;
+      font-size: 16px;
       font-family: sans-serif;
       dominant-baseline: middle;
       text-anchor: end;
@@ -15,6 +15,6 @@
       .text { fill: #dddddd; }
     }
   </style>
-  <rect class="bg" width="1000" height="100" />
-  <text class="text" x="950" y="50">您将此帖子举报需要版主审核</text>
+  <rect class="bg" width="600" height="100" />
+  <text class="text" x="580" y="50">您将此帖子举报需要版主审核</text>
 </svg>
